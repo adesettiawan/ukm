@@ -13,7 +13,7 @@ const Hero = () => {
                         <h1 className="mb-8 text-[48px] font-bold leading-tight tracking-wider text-dark">
                             Portal Unit Kegiatan Mahasiswa
                         </h1>
-                        <p className="mb-16 text-[18px] font-normal tracking-wider text-desc lg:max-w-md">
+                        <p className="mb-12 text-[18px] font-normal tracking-wider text-desc lg:max-w-md">
                             Cari tahu lebih lanjut tentang UKM yang ada di
                             Politeknik Negeri Lampung.
                         </p>
