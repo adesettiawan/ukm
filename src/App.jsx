@@ -1,6 +1,7 @@
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
 import Line from "./components/lines/Line";
+import Ukm from "./components/ukm/Ukm";
 
 function App() {
     return (
@@ -8,6 +9,7 @@ function App() {
             <Header />
             <Hero />
             <Line />
+            <Ukm />
         </>
     );
 }
