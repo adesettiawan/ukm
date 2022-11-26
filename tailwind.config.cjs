@@ -8,6 +8,8 @@ module.exports = {
                 secondary: "#0058A7",
                 category: "#FFB703",
                 dark: "#0f172a",
+                desc: "#595959",
+                icon: "#6F6F6F",
             },
         },
         container: {

@@ -5,7 +5,7 @@ import polinela from "../../assets/logo/polinela.png";
 
 const Header = () => {
     return (
-        <header className="top-0 left-0 z-10 flex w-full items-center bg-slate-400 py-6">
+        <header className="top-0 left-0 z-10 flex w-full items-center bg-white py-6">
             <div className="container">
                 <div className="flex flex-row justify-between">
                     <div className="left-0 mt-2 w-full lg:w-80">
