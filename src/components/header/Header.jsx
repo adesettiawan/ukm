@@ -20,13 +20,13 @@ const Header = () => {
                     </div>
                     <div className="w-full lg:max-w-xs">
                         <ul className="flex items-center justify-between py-4">
-                            <li className="text-base font-bold text-dark">
-                                Beranda
+                            <li className="cursor-pointer text-base font-bold text-dark hover:text-secondary">
+                                <a href="/">Beranda</a>
                             </li>
-                            <li className="text-base font-normal text-dark">
-                                Tentang Kami
+                            <li className="cursor-pointer text-base font-normal text-dark hover:text-secondary">
+                                <a href="/profile-polinela">Tentang Kami</a>
                             </li>
-                            <li className="text-base font-normal text-dark">
+                            <li className="cursor-pointer text-base font-normal text-dark hover:text-secondary">
                                 UKM
                             </li>
                         </ul>

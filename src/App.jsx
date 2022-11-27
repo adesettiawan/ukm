@@ -1,15 +1,18 @@
+import { Routes, Route } from "react-router-dom";
+import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
-import Hero from "./components/hero/Hero";
-import Line from "./components/lines/Line";
-import Ukm from "./components/ukm/Ukm";
+import Beranda from "./pages/portal-polinela/Beranda";
+import ProfilePolinela from "./pages/portal-polinela/ProfilePolinela";
 
 function App() {
     return (
         <>
             <Header />
-            <Hero />
-            <Line />
-            <Ukm />
+            <Routes>
+                <Route path="/" element={<Beranda />} />
+                <Route path="/profile-polinela" element={<ProfilePolinela />} />
+            </Routes>
+            <Footer />
         </>
     );
 }
