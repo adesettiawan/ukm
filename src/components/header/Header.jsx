@@ -27,7 +27,7 @@ const Header = () => {
                                 <a href="/profile-polinela">Tentang Kami</a>
                             </li>
                             <li className="cursor-pointer text-base font-normal text-dark hover:text-secondary">
-                                UKM
+                                <a href="/ukm-polinela">UKM</a>
                             </li>
                         </ul>
                     </div>

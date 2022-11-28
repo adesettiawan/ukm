@@ -16,7 +16,7 @@ const ListUkm = () => {
                             <div className="my-6 py-4 px-4 lg:max-w-[280px]">
                                 <h3>
                                     <a
-                                        href="#"
+                                        href="/beranda-ukm/1"
                                         className="mb-3 block truncate text-xl font-semibold text-secondary"
                                     >
                                         Bidang Seni
@@ -62,7 +62,7 @@ const ListUkm = () => {
                             <div className="my-6 py-4 px-4 lg:max-w-[280px]">
                                 <h3>
                                     <a
-                                        href="#"
+                                        href="/beranda-ukm/2"
                                         className="mb-3 block truncate text-xl font-semibold text-secondary"
                                     >
                                         Poltapala
