@@ -1,7 +1,7 @@
 import React from "react";
-import AllListImage from "../../components/gallery/images/AllListImage";
-import Jumbotron from "../../components/jumbotron/Jumbotron";
-import SearchBar from "../../components/search-bar/SearchBar";
+import AllListImage from "../../../components/gallery/images/AllListImage";
+import Jumbotron from "../../../components/jumbotron/Jumbotron";
+import SearchBar from "../../../components/search-bar/SearchBar";
 
 const GaleriFotoUkm = () => {
     return (

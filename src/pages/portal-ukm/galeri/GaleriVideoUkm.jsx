@@ -1,7 +1,7 @@
 import React from "react";
-import AllLIstVideo from "../../components/gallery/videos/AllLIstVideo";
-import Jumbotron from "../../components/jumbotron/Jumbotron";
-import SearchBar from "../../components/search-bar/SearchBar";
+import AllLIstVideo from "../../../components/gallery/videos/AllLIstVideo";
+import Jumbotron from "../../../components/jumbotron/Jumbotron";
+import SearchBar from "../../../components/search-bar/SearchBar";
 
 const GaleriVideoUkm = () => {
     return (

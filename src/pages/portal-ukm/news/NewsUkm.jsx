@@ -1,8 +1,8 @@
 import React from "react";
-import HeaderCategory from "../../components/header/HeaderCategory";
-import Jumbotron from "../../components/jumbotron/Jumbotron";
-import NewsUkms from "../../components/news/NewsUkms";
-import SearchBar from "../../components/search-bar/SearchBar";
+import HeaderCategory from "../../../components/header/HeaderCategory";
+import Jumbotron from "../../../components/jumbotron/Jumbotron";
+import NewsUkms from "../../../components/news/NewsUkms";
+import SearchBar from "../../../components/search-bar/SearchBar";
 
 const NewsUkm = () => {
     return (

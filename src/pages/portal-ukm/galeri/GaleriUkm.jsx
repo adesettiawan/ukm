@@ -1,11 +1,11 @@
 import React from "react";
-import HighlightAgenda from "../../components/agenda/HighlightAgenda";
-import ListImage from "../../components/gallery/images/ListImage";
-import ListVideo from "../../components/gallery/videos/ListVideo";
-import Jumbotron from "../../components/jumbotron/Jumbotron";
-import Populer from "../../components/news/Populer";
-import HighlightPengumuman from "../../components/pengumuman/HighlightPengumuman";
-import SearchBar from "../../components/search-bar/SearchBar";
+import HighlightAgenda from "../../../components/agenda/HighlightAgenda";
+import ListImage from "../../../components/gallery/images/ListImage";
+import ListVideo from "../../../components/gallery/videos/ListVideo";
+import Jumbotron from "../../../components/jumbotron/Jumbotron";
+import Populer from "../../../components/news/Populer";
+import HighlightPengumuman from "../../../components/pengumuman/HighlightPengumuman";
+import SearchBar from "../../../components/search-bar/SearchBar";
 
 const GaleriUkm = () => {
     return (

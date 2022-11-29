@@ -37,14 +37,16 @@ const NewsUkms = () => {
                                         BEM
                                     </a>
                                     <h5 className="mb-4 mt-5 cursor-pointer text-[17px] font-bold leading-snug text-dark hover:text-secondary sm:max-w-md">
-                                        Tanggap Bencana Lampung Selatan, BEM KBM
-                                        Polinela
+                                        <a href="/detail/1">
+                                            Tanggap Bencana Lampung Selatan, BEM
+                                            KBM Polinela
+                                        </a>
                                     </h5>
                                     <p className="mb-4 text-[14px] leading-snug text-desc">
                                         Kegiatan ini dilaksanakan mengingat hari
                                         ulang tahun UKMBS yang ke 10 tahun...
                                     </p>
-                                    <ul className="flex items-center justify-between text-[13px] text-base font-semibold text-desc lg:w-[270px]">
+                                    <ul className="flex items-center justify-between text-[13px] font-semibold text-desc lg:w-[270px]">
                                         <li className="flex items-center justify-center">
                                             <svg
                                                 xmlns="http://www.w3.org/2000/svg"
@@ -114,7 +116,7 @@ const NewsUkms = () => {
                                         Kegiatan ini dilaksanakan mengingat hari
                                         ulang tahun UKMBS yang ke 10 tahun...
                                     </p>
-                                    <ul className="flex items-center justify-between text-[13px] text-base font-semibold text-desc lg:w-[270px]">
+                                    <ul className="flex items-center justify-between text-[13px] font-semibold text-desc lg:w-[270px]">
                                         <li className="flex items-center justify-center">
                                             <svg
                                                 xmlns="http://www.w3.org/2000/svg"
@@ -184,7 +186,7 @@ const NewsUkms = () => {
                                         Kegiatan ini dilaksanakan mengingat hari
                                         ulang tahun UKMBS yang ke 10 tahun...
                                     </p>
-                                    <ul className="flex items-center justify-between text-[13px] text-base font-semibold text-desc lg:w-[270px]">
+                                    <ul className="flex items-center justify-between text-[13px] font-semibold text-desc lg:w-[270px]">
                                         <li className="flex items-center justify-center">
                                             <svg
                                                 xmlns="http://www.w3.org/2000/svg"
@@ -254,7 +256,7 @@ const NewsUkms = () => {
                                         Kegiatan ini dilaksanakan mengingat hari
                                         ulang tahun UKMBS yang ke 10 tahun...
                                     </p>
-                                    <ul className="flex items-center justify-between text-[13px] text-base font-semibold text-desc lg:w-[270px]">
+                                    <ul className="flex items-center justify-between text-[13px] font-semibold text-desc lg:w-[270px]">
                                         <li className="flex items-center justify-center">
                                             <svg
                                                 xmlns="http://www.w3.org/2000/svg"
