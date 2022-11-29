@@ -1,9 +1,9 @@
 import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
+import { Link } from "react-router-dom";
 import news from "../../assets/images/news.png";
 import HighlightAgenda from "../agenda/HighlightAgenda";
-import HighlightVideo from "../gallery/videos/HighlightVideo";
 import LineUkm from "../lines/LineUkm";
 import Pagination from "../pagination/Pagination";
 import HighlightPengumuman from "../pengumuman/HighlightPengumuman";
@@ -37,10 +37,10 @@ const NewsUkms = () => {
                                         BEM
                                     </a>
                                     <h5 className="mb-4 mt-5 cursor-pointer text-[17px] font-bold leading-snug text-dark hover:text-secondary sm:max-w-md">
-                                        <a href="/detail/1">
+                                        <Link to={`/detail/1`}>
                                             Tanggap Bencana Lampung Selatan, BEM
                                             KBM Polinela
-                                        </a>
+                                        </Link>
                                     </h5>
                                     <p className="mb-4 text-[14px] leading-snug text-desc">
                                         Kegiatan ini dilaksanakan mengingat hari

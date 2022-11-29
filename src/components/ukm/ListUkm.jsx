@@ -5,6 +5,7 @@ import sukma from "../../assets/logo/sukma.png";
 import ukmbs from "../../assets/logo/ukmbs.png";
 import poltapala from "../../assets/logo/poltapala.png";
 import ec from "../../assets/logo/ec.png";
+import { Link } from "react-router-dom";
 
 const ListUkm = () => {
     return (
@@ -15,12 +16,12 @@ const ListUkm = () => {
                         <div className="flex items-center justify-around">
                             <div className="my-6 py-4 px-4 lg:max-w-[280px]">
                                 <h3>
-                                    <a
-                                        href="/beranda-ukm/1"
+                                    <Link
+                                        to={`/beranda-ukm/1`}
                                         className="mb-3 block truncate text-xl font-semibold text-secondary"
                                     >
                                         Bidang Seni
-                                    </a>
+                                    </Link>
                                 </h3>
                                 <p className="mb-8 text-left text-[14px] font-normal text-desc">
                                     Lorem ipsum dolor sit amet, consectetur
@@ -61,12 +62,12 @@ const ListUkm = () => {
                         <div className="flex items-center justify-around">
                             <div className="my-6 py-4 px-4 lg:max-w-[280px]">
                                 <h3>
-                                    <a
-                                        href="/beranda-ukm/2"
+                                    <Link
+                                        to={`/beranda-ukm/2`}
                                         className="mb-3 block truncate text-xl font-semibold text-secondary"
                                     >
                                         Poltapala
-                                    </a>
+                                    </Link>
                                 </h3>
                                 <p className="mb-8 text-left text-[14px] font-normal text-desc">
                                     Lorem ipsum dolor sit amet, consectetur

@@ -1,6 +1,7 @@
 import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
+import { Link } from "react-router-dom";
 import polinela from "../../assets/logo/polinela.png";
 
 const Header = () => {
@@ -21,13 +22,15 @@ const Header = () => {
                     <div className="w-full lg:max-w-xs">
                         <ul className="flex items-center justify-between py-4">
                             <li className="cursor-pointer text-base font-bold text-dark hover:text-secondary">
-                                <a href="/">Beranda</a>
+                                <Link to={`/`}>Beranda</Link>
                             </li>
                             <li className="cursor-pointer text-base font-normal text-dark hover:text-secondary">
-                                <a href="/profile-polinela">Tentang Kami</a>
+                                <Link to={`/profile-polinela`}>
+                                    Tentang Kami
+                                </Link>
                             </li>
                             <li className="cursor-pointer text-base font-normal text-dark hover:text-secondary">
-                                <a href="/ukm-polinela">UKM</a>
+                                <Link to={`/ukm-polinela`}>UKM</Link>
                             </li>
                         </ul>
                     </div>
