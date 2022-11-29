@@ -7,6 +7,7 @@ import UkmPolinela from "./pages/portal-polinela/UkmPolinela";
 import BerandaUkm from "./pages/portal-ukm/BerandaUkm";
 import GaleriFotoUkm from "./pages/portal-ukm/GaleriFotoUkm";
 import GaleriUkm from "./pages/portal-ukm/GaleriUkm";
+import GaleriVideoUkm from "./pages/portal-ukm/GaleriVideoUkm";
 import NewsUkm from "./pages/portal-ukm/NewsUkm";
 import ProfileUkm from "./pages/portal-ukm/ProfileUkm";
 
@@ -23,6 +24,7 @@ function App() {
                 <Route path="/berita" element={<NewsUkm />} />
                 <Route path="/galeri" element={<GaleriUkm />} />
                 <Route path="/galeri/foto" element={<GaleriFotoUkm />} />
+                <Route path="/galeri/video" element={<GaleriVideoUkm />} />
             </Routes>
             <Footer />
         </>
