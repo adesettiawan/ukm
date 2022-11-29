@@ -7,7 +7,7 @@ const SearchBar = () => {
                 <input
                     type="text"
                     placeholder="Pencarian"
-                    className="block w-full rounded-full border-slate-200 bg-slate-50 p-2 px-4 text-sm text-icon shadow-lg ring-1 ring-icon focus:border-secondary focus:outline-none focus:ring-secondary "
+                    className="block w-full rounded-full border-slate-200 bg-white p-2 px-4 text-sm text-icon shadow-lg ring-1 ring-icon focus:border-secondary focus:outline-none focus:ring-secondary "
                 />
                 <svg
                     xmlns="http://www.w3.org/2000/svg"

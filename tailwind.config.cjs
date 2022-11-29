@@ -10,6 +10,7 @@ module.exports = {
                 dark: "#0f172a",
                 desc: "#595959",
                 icon: "#6F6F6F",
+                ukm: "#F2F9FF",
             },
         },
         container: {

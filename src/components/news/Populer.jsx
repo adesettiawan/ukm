@@ -8,19 +8,19 @@ import LineUkm from "../../components/lines/LineUkm";
 
 const Populer = () => {
     return (
-        <div className="w-full px-4 lg:w-1/2 lg:pl-10">
+        <div className="w-full px-4 lg:w-[509px] lg:pl-10">
             <h5 className="text-xl font-bold text-primary">Populer</h5>
             <LineUkm />
             <div className="flex flex-wrap justify-between">
-                <div className="mt-5 w-full lg:max-w-xs">
-                    <span className="cursor-pointer text-base font-semibold text-secondary">
+                <div className="mt-5 w-full lg:w-[320px]">
+                    <span className="cursor-pointer text-[14px] font-semibold text-secondary">
                         Berita
                     </span>
-                    <h5 className="mt-3 mb-8 cursor-pointer text-[18px] font-bold text-dark">
+                    <h5 className="mt-3 mb-8 cursor-pointer text-[17px] font-bold text-dark hover:text-secondary">
                         Polinela Raih Predikat Akreditasi Baik Sekali dari BAN
                         PT
                     </h5>
-                    <ul className="flex items-center justify-between text-[14px] text-base font-semibold text-desc">
+                    <ul className="flex items-center justify-between text-[13px] font-semibold text-desc lg:w-[270px]">
                         <li className="flex items-center justify-center">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -66,7 +66,7 @@ const Populer = () => {
                 <div className="mt-5 self-center">
                     <LazyLoadImage
                         src={populer}
-                        className="w-full lg:h-[135px] lg:max-w-[135px]"
+                        className="lg:h-[100px] lg:max-w-[100px]"
                         effect="blur"
                         alt="populer.png"
                         placeholderSrc={populer}
@@ -76,15 +76,15 @@ const Populer = () => {
             </div>
             <LineUkm />
             <div className="flex flex-wrap justify-between">
-                <div className="mt-5 w-full lg:max-w-xs">
-                    <span className="cursor-pointer text-base font-semibold text-secondary">
+                <div className="mt-5 w-full lg:w-[320px]">
+                    <span className="cursor-pointer text-[14px] font-semibold text-secondary">
                         Berita
                     </span>
-                    <h5 className="mt-3 mb-8 cursor-pointer text-[18px] font-bold text-dark">
+                    <h5 className="mt-3 mb-8 cursor-pointer text-[17px] font-bold text-dark">
                         Perdana! Mahasiswa Magister Terapan Ketahanan Pangan
                         Laksanakan Ujian Tesis
                     </h5>
-                    <ul className="flex items-center justify-between text-[14px] text-base font-semibold text-desc">
+                    <ul className="text-desclg:w-[270px] flex items-center justify-between text-[13px] font-semibold text-desc lg:w-[270px]">
                         <li className="flex items-center justify-center">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -130,7 +130,7 @@ const Populer = () => {
                 <div className="mt-5 self-center">
                     <LazyLoadImage
                         src={tesis}
-                        className="w-full lg:h-[135px] lg:max-w-[135px]"
+                        className="lg:h-[100px] lg:max-w-[100px]"
                         effect="blur"
                         alt="tesis.png"
                         placeholderSrc={tesis}
@@ -140,14 +140,14 @@ const Populer = () => {
             </div>
             <LineUkm />
             <div className="flex flex-wrap justify-between">
-                <div className="mt-5 w-full lg:max-w-xs">
-                    <span className="cursor-pointer text-base font-semibold text-secondary">
+                <div className="mt-5 w-full lg:w-[320px]">
+                    <span className="cursor-pointer text-[14px] font-semibold text-secondary">
                         Berita
                     </span>
-                    <h5 className="mt-3 mb-8 cursor-pointer text-[18px] font-bold text-dark">
+                    <h5 className="mt-3 mb-8 cursor-pointer text-[17px] font-bold text-dark">
                         324 Mahasiswa Polinela Ikuti Wisuda Periode Oktober
                     </h5>
-                    <ul className="flex items-center justify-between text-[14px] text-base font-semibold text-desc">
+                    <ul className="flex items-center justify-between text-[13px] font-semibold text-desc lg:w-[270px]">
                         <li className="flex items-center justify-center">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -190,10 +190,10 @@ const Populer = () => {
                         </li>
                     </ul>
                 </div>
-                <div className="mt-5">
+                <div className="mt-5 self-center">
                     <LazyLoadImage
                         src={wisuda}
-                        className="w-full lg:h-[135px] lg:max-w-[135px]"
+                        className="lg:h-[100px] lg:max-w-[100px]"
                         effect="blur"
                         alt="wisuda.png"
                         placeholderSrc={wisuda}
