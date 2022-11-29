@@ -13,7 +13,7 @@ const ProfileUkm = () => {
                         <h1 className="mb-6 text-[32px] font-bold leading-tight tracking-wider text-primary">
                             Tentang Kami
                         </h1>
-                        <p className="mb-8 text-justify text-base font-normal leading-snug text-dark lg:w-full">
+                        <p className="mb-8 text-justify text-base font-normal leading-snug text-desc lg:w-full">
                             Pers SUKMA (Suara Kreatifitas Mahasiswa) adalah
                             salah satu Unit Kegiatan Mahasiswa (UKM) di
                             Politeknik Negeri Lampung (Polinela) dan merupakan
@@ -30,7 +30,7 @@ const ProfileUkm = () => {
                             Pada 3 Februari 2002 LPM SUKMA resmi berganti nama
                             menjadi UKM Pers SUKMA sampai saat ini.
                         </p>
-                        <p className="mb-12 text-justify text-base font-normal leading-snug text-dark lg:w-full">
+                        <p className="mb-12 text-justify text-base font-normal leading-snug text-desc lg:w-full">
                             Sebagai Pers Mahasiswa, UKM Pers SUKMA memilik 3
                             produk media yaitu Buletin, Majalah, dan Media
                             Daring. Hingga usianya ke-20, saat ini SUKMA telah

@@ -29,9 +29,6 @@ const Header = () => {
                             <li className="cursor-pointer text-base font-normal text-dark hover:text-secondary">
                                 <a href="/ukm-polinela">UKM</a>
                             </li>
-                            <li className="cursor-pointer text-base font-normal text-dark hover:text-secondary">
-                                <a href="/profile-ukm">Profil UKM</a>
-                            </li>
                         </ul>
                     </div>
                     <div className="relative items-center lg:w-80">

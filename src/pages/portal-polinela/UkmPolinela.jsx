@@ -13,7 +13,7 @@ const UkmPolinela = () => {
                     </h2>
                     <div className="max-w-sm">
                         <p className="mb-10 text-base font-normal leading-relaxed text-desc">
-                            Anda bisa menemukan berita menarik untuk anda baca
+                            Anda bisa menemukan UKM menarik untuk anda lihat
                             setiap harinya
                         </p>
                     </div>

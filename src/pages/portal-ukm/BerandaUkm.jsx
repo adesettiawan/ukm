@@ -9,9 +9,13 @@ const BerandaUkm = () => {
         <>
             <section className="pb-12 pt-12">
                 <div className="container">
-                    <div className="flex flex-wrap">
-                        <Highlight />
-                        <Populer />
+                    <div className="mx-auto flex w-full flex-wrap justify-center">
+                        <div className="w-full px-4 lg:w-[739px]">
+                            <Highlight />
+                        </div>
+                        <div className="w-full px-4 lg:w-[509px] lg:pl-10">
+                            <Populer />
+                        </div>
                     </div>
                 </div>
             </section>

@@ -5,7 +5,7 @@ import news from "../../assets/images/news.png";
 
 const Highlight = () => {
     return (
-        <div className="w-full px-4 lg:w-[739px]">
+        <>
             <LazyLoadImage
                 src={news}
                 className="relative w-full lg:h-[584px]"
@@ -26,7 +26,7 @@ const Highlight = () => {
                 </h5>
                 <span className="text-xs text-white">10 September 2022</span>
             </div>
-        </div>
+        </>
     );
 };
 

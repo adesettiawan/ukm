@@ -2,18 +2,24 @@ import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import news from "../../assets/images/news.png";
-import HighlightImage from "../gallery/images/HighlightImage";
+import HighlightAgenda from "../agenda/HighlightAgenda";
 import HighlightVideo from "../gallery/videos/HighlightVideo";
+import LineUkm from "../lines/LineUkm";
 import Pagination from "../pagination/Pagination";
 import HighlightPengumuman from "../pengumuman/HighlightPengumuman";
+import Populer from "./Populer";
 
-const AllNews = () => {
+const NewsUkms = () => {
     return (
-        <section className="pb-12 pt-2">
+        <section className="pb-12 pt-0">
             <div className="container">
                 <div className="mx-auto flex flex-wrap justify-center">
                     <div className="w-full px-4 lg:w-[739px]">
-                        <div className="flex flex-wrap justify-between">
+                        <h5 className="text-xl font-bold text-primary">
+                            Terbaru
+                        </h5>
+                        <LineUkm />
+                        <div className="mt-8 flex flex-wrap justify-between">
                             <div className="mb-10 w-full overflow-hidden rounded-lg bg-white  shadow-lg lg:w-[340px]">
                                 <LazyLoadImage
                                     src={news}
@@ -299,8 +305,10 @@ const AllNews = () => {
                     </div>
                     <div className="w-full px-4 lg:w-[509px] lg:pl-10">
                         <HighlightPengumuman />
-                        <HighlightImage />
-                        <HighlightVideo />
+                        <div className="mt-10">
+                            <Populer />
+                        </div>
+                        <HighlightAgenda />
                     </div>
                 </div>
             </div>
@@ -308,4 +316,4 @@ const AllNews = () => {
     );
 };
 
-export default AllNews;
+export default NewsUkms;

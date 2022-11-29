@@ -8,7 +8,7 @@ import LineUkm from "../../components/lines/LineUkm";
 
 const Populer = () => {
     return (
-        <div className="w-full px-4 lg:w-[509px] lg:pl-10">
+        <>
             <h5 className="text-xl font-bold text-primary">Populer</h5>
             <LineUkm />
             <div className="flex flex-wrap justify-between">
@@ -201,7 +201,7 @@ const Populer = () => {
                     />
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 
