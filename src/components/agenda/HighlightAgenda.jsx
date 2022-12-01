@@ -12,7 +12,7 @@ const HighlightAgenda = () => {
             <div className="flex flex-wrap justify-between">
                 <div className="mt-5 w-full lg:w-[320px]">
                     <h5 className="mt-1 mb-8 cursor-pointer text-[17px] font-bold text-dark hover:text-secondary">
-                        UKM Pers SUKMA Polinela gelar Sukma Fair 2022
+                        UKM Pers SUKMA Polinela gelar Sukma Fair 2022.
                     </h5>
                 </div>
                 <div className="mt-5 self-center">
