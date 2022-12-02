@@ -16,7 +16,7 @@ const Highlight = () => {
             />
             <div className="absolute z-10 -mt-52 max-w-md px-10">
                 <a
-                    href="#"
+                    href="#!"
                     className="rounded-full bg-category py-2 px-4 text-center text-sm font-medium text-white transition duration-200 ease-in-out hover:opacity-80 lg:max-w-sm"
                 >
                     Kopma
