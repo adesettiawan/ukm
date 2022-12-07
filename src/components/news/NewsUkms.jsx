@@ -31,7 +31,7 @@ const NewsUkms = () => {
                                 />
                                 <div className="max-w-md px-4 py-6">
                                     <a
-                                        href="#"
+                                        href="#!"
                                         className="rounded-full bg-category py-1 px-4 text-center text-xs font-semibold text-dark transition duration-200 ease-in-out hover:opacity-80 lg:max-w-sm"
                                     >
                                         BEM
